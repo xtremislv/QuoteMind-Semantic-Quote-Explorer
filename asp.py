@@ -48,7 +48,7 @@ tracer_provider = register(
   endpoint="http://localhost:6006/v1/traces",
   auto_instrument=True
 )
-genai.configure(api_key="AIzaSyC4G9dJu7fqD6iLrWtROSL_PWl0wGNEffc")
+genai.configure(api_key="Your GOOGLR API KEY")
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 # Generate structured answer
